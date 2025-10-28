@@ -6,7 +6,7 @@ The goal of this project is **Research & Development (R&D)** — serving as a co
 
 This board integrates several critical subsystems:  
 - **ESP32 MCU** for control, processing, and connectivity  
-- **W5500 Ethernet PHY** for wired industrial communication  
+- **Ethernet PHY** for wired industrial communication  
 - **12V → 5V Buck converter** for stable power regulation  
 - **Relay & connector interfaces** for 12V actuator control  
 - **Mixed-signal domain separation** for signal integrity and reliability  
@@ -22,10 +22,10 @@ This board integrates several critical subsystems:
 
 ### Microcontroller
 - **ESP32** as the main MCU, providing dual-core performance, Wi-Fi, and Bluetooth  
-- Supports both **Ethernet (via W5500)** and wireless communication for flexibility  
+- Supports both **Ethernet (via )** and wireless communication for flexibility  
 
 ### Ethernet Connectivity
-- **W5500 Ethernet PHY** integrated for deterministic industrial networking  
+- ** Ethernet PHY** integrated for deterministic industrial networking  
 - Supports TCP/IP stack offload and stable long-distance communication  
 
 ### Actuator Interface
