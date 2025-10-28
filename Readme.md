@@ -99,7 +99,10 @@ This ensures not only functionality but **industrial reliability** and **scalabi
 Planned improvements and next steps include:  
 - Completing **PCB routing and DRC validation**  
 - PDN and thermal simulation for improved efficiency  
-- Hardware bring-up and firmware development for ESP32  
+- **Firmware development** for ESP32 once the board is fabricated — focusing on:  
+  - Initial hardware **bring-up and testing**  
+  - Communication testing via **Ethernet and Wi-Fi**  
+  - Relay control validation and signal integrity checks  
 - Integration with **MQTT / Modbus / Ethernet protocols**  
 - Enhanced relay driver protection and modular expansion  
 
