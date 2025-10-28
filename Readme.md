@@ -2,7 +2,7 @@
 
 **Industrial mixed-signal embedded design** represents one of the most demanding areas of hardware engineering — combining **digital communication**, **analog signal conditioning**, and **power electronics** into one reliable and scalable platform.  
 
-👉 The goal of this project is **Research & Development (R&D)** — serving as a complete **industrial IoT actuator control system** designed and implemented entirely from scratch using professional design practices.
+The goal of this project is **Research & Development (R&D)** — serving as a complete **industrial IoT actuator control system** designed and implemented entirely from scratch using professional design practices.
 
 This board integrates several critical subsystems:  
 - **ESP32 MCU** for control, processing, and connectivity  
@@ -13,32 +13,32 @@ This board integrates several critical subsystems:
 
 ---
 
-## 🧩 Features
+## Features
 
-### ⚡ Power Supply & Regulation
+### Power Supply & Regulation
 - 12V input with onboard **buck converter** to 5V and 3.3V rails  
 - Designed for low noise and high efficiency  
 - Optimized **Power Delivery Network (PDN)** for mixed-signal domains  
 
-### 🧠 Microcontroller
+### Microcontroller
 - **ESP32** as the main MCU, providing dual-core performance, Wi-Fi, and Bluetooth  
 - Supports both **Ethernet (via W5500)** and wireless communication for flexibility  
 
-### 🌐 Ethernet Connectivity
+### Ethernet Connectivity
 - **W5500 Ethernet PHY** integrated for deterministic industrial networking  
 - Supports TCP/IP stack offload and stable long-distance communication  
 
-### ⚙️ Actuator Interface
+### Actuator Interface
 - **20-channel control** for 12V actuators using industrial-grade relays and connectors  
 - Designed for modular scalability and robust operation in industrial environments  
 
-### 🔀 Mixed-Signal Design
+### Mixed-Signal Design
 - Careful domain separation between power, analog, and digital circuits  
 - Grounding, filtering, and isolation techniques applied for EMI/EMC robustness  
 
 ---
 
-## 🪛 PCB Design Overview
+## PCB Design Overview
 
 This board was developed using **KiCad**, following a complete professional hardware design flow:  
 1. **System-level analysis & component selection**  
@@ -47,7 +47,7 @@ This board was developed using **KiCad**, following a complete professional hard
 4. **Placement optimization** for power, signal, and thermal performance  
 5. **Routing of mixed-signal domains** ensuring clean return paths and minimal noise  
 
-### 🧱 PCB Stack-Up (2-Layer Design)
+### PCB Stack-Up (2-Layer Design)
 
 This board uses a **2-layer PCB** layout optimized for cost, manufacturability, and industrial robustness.
 
@@ -60,7 +60,7 @@ This configuration maintains signal integrity while ensuring an efficient ground
 
 ---
 
-## 🏭 Industrial Design Considerations
+## Industrial Design Considerations
 
 This project applies **real-world industrial design experience** to ensure professional-grade reliability:
 
@@ -72,7 +72,7 @@ This project applies **real-world industrial design experience** to ensure profe
 
 ---
 
-## 🔬 R&D Methodology
+## R&D Methodology
 
 The design process followed a full **Research & Development workflow**, involving:  
 - Circuit simulation and validation  
@@ -84,7 +84,7 @@ This ensures not only functionality but **industrial reliability** and **scalabi
 
 ---
 
-## 🚀 Applications
+## Applications
 
 - Industrial IoT actuator control systems  
 - Factory automation and process control  
@@ -94,7 +94,7 @@ This ensures not only functionality but **industrial reliability** and **scalabi
 
 ---
 
-## 🔧 Future Work
+## Future Work
 
 Planned improvements and next steps include:  
 - Completing **PCB routing and DRC validation**  
@@ -108,7 +108,7 @@ Planned improvements and next steps include:
 
 ---
 
-## 💬 Contribution & Feedback
+## Contribution & Feedback
 
 Feedback, ideas, and technical discussions are always welcome!  
 Feel free to open an issue or contribute to improving the design.
@@ -117,5 +117,4 @@ Feel free to open an issue or contribute to improving the design.
 
 ## 📬 Contact
 
-📧 **abdelrahmankh2025@gmail.com**  
-🔗 GitHub: [Abdelrhman20khaled](https://github.com/Abdelrhman20khaled)
+**abdelrahmankh2025@gmail.com**  
