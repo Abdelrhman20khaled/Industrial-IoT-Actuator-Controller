@@ -1,0 +1,7345 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6d43d847-908a-45f7-99cf-9b99e75bf79a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:CONN_Terminal Block 1x3_5.08mm"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:CONN_Termincal Block_PHOENIX_1715734"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male (2.54mm) 1X40 Straight Long (20 CM)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Header{space}Pin{space}1x3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_Terminal Block 1x3_5.08mm_1_0"
+				(rectangle
+					(start -5.08 7.62)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:Capacitor_Electrolytic 22uF_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C?"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22 µF/25V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:CAP_Electrolyit_22uF_SMD"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Electrolytic Capacitor (22UF , 35V)SMD Radial Electrolytic Capacitor"
+				(at 0.508 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Electrolytic{space}Capacitor{space}22UF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_Electrolytic 22uF_SMD_1_0"
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0193 -1.2315)
+					(mid -0.369 0)
+					(end 0.0193 1.2315)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -2.54 0 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(thickness 0.2032)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(symbol "Capacitor_Electrolytic 22uF_SMD_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:Diode_Schottky SS54_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:Diode_Schottky_SS54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SS54/21853075"
+				(at 0.508 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Schottky diode 5A 40V 1N5824 SS54 DO-214AB SMC"
+				(at 0.762 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Schottky{space}SS14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_Schottky SS54_SMD_1_0"
+				(polyline
+					(pts
+						(xy -1.524 1.778) (xy 1.016 0) (xy -1.524 -2.032) (xy -1.524 0) (xy -1.524 1.778)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 1.778 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.556)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:Diode_TVS_SMAJ33A"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Diode_TVS_SMAJ33A"
+				(at 6.096 -4.572 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:Diode_TVSSMASeries_LTF"
+				(at 4.826 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SMAJ33A"
+				(at 4.572 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "53.3V Clamp 7.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"
+				(at 6.096 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMAJ33A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SMASeries_LTF SMASeries_LTF-M SMASeries_LTF-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_TVS_SMAJ33A_1_0"
+				(polyline
+					(pts
+						(xy 5.334 -2.794) (xy 6.35 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.032) (xy 7.366 2.794)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_TVS_SMAJ33A_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.032) (xy 6.35 2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 6.6802 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Diode_TVS_SMAJ33A_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:Fuse_5mmx20mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F?"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:Fuse_Holder_5mmx20mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_5mmx20mm_1_0"
+				(arc
+					(start -2.54 0)
+					(mid 0 1.0521)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:IC_Buck Converter_MP2307DN-LF-Z"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IC_Buck Converter_MP2393DN-LF-Z"
+				(at -10.16 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:IC_MP2393_Buck Converter"
+				(at 1.778 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2307DN-LF-Z/5292007"
+				(at 0 16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.925V 1 Output 3A 8-SOIC (0.154\", 3.90mm Width) Exposed Pad"
+				(at -24.892 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Market Link" "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2307DN-LF-Z/5292007"
+				(at -1.778 18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Monolithic Power  System"
+				(at 1.778 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "IC_Buck Converter_MP2307DN-LF-Z_0_0"
+				(rectangle
+					(start -10.16 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC_Buck Converter_MP2307DN-LF-Z_1_0"
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC_Buck Converter_MP2307DN-LF-Z_1_1"
+				(text "MP2393 "
+					(at -2.54 -0.254 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:Inductor_WE-HCI_7050"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 1.524 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Inductor_WE-HCI_7050"
+				(at -5.08 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:Inductor_4.9µHWE-HCI_7050"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744314490/1638566"
+				(at -0.254 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.9 µH Shielded Wirewound Inductor 6.5 A 14.5mOhm Nonstandard"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Market Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744314490/1638566"
+				(at -0.508 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Inductor_WE-HCI_7050_0_0"
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:LED_Green_SMD_0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D?"
+				(at 0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green Led"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actuator_20Ch_24V_FootPrints:LED_RED_SMD_0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Market Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Green_SMD_0805_1_0"
+				(polyline
+					(pts
+						(xy -0.254 3.048) (xy 2.286 1.27) (xy -0.254 -0.762) (xy -0.254 1.27) (xy -0.254 3.048)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 4.064) (xy 2.032 5.334)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 3.048) (xy 3.048 4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.334) (xy 1.016 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.334) (xy 1.778 4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.508) (xy 2.286 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 4.318) (xy 2.032 4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 4.318) (xy 2.794 3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.556)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Actuator Controller_IP65_24V_20_Channel-altium-import:PWR_Regulator LDO 3.3v_SMD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0.762 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "(+3.3V , 800mA ) Low-Dropout Voltage Regulator.(TO-220)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LDO{space}3.3V*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_Regulator LDO 3.3v_SMD_1_0"
+				(rectangle
+					(start 7.62 2.54)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GND"
+					(at -2.54 -4.572 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitor (100nF , 50V) SMD (1206)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Capacitor{space}100nF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_Capacitor 100nF_GP_Integrated_Library.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Resistor{space}4.7KKohm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -0.762 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.064) (xy 0 3.556) (xy 0.508 3.048) (xy -0.762 2.54) (xy 0.508 1.778) (xy -0.762 1.016)
+						(xy 0.508 0.254) (xy -0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Project:"
+		(exclude_from_sim no)
+		(at 184.15 169.418 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0036b19d-c3f4-4033-b4bb-1d5feebc44ee")
+	)
+	(text "+ve 5V Buck Converter Circuit (MP2393)"
+		(exclude_from_sim no)
+		(at 107.696 50.292 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.4763)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7bc24c-2e17-4dd7-83c7-4166bc3e558e")
+	)
+	(text "Industrial IoT 20-Channel Actuator Controller"
+		(exclude_from_sim no)
+		(at 217.932 169.926 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "144f741b-8d48-401c-ba18-914714b6977c")
+	)
+	(text "20/10/2025"
+		(exclude_from_sim no)
+		(at 226.568 193.802 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "539015aa-6110-4f68-8a9c-c6e259260221")
+	)
+	(text "Developer:"
+		(exclude_from_sim no)
+		(at 186.182 174.752 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "6d0f43ac-0fa2-4a5a-9680-3a23629232c2")
+	)
+	(text "Industrial IoT 20-Channel Actuator Controller (Power Network Sheet)"
+		(exclude_from_sim no)
+		(at 234.442 190.246 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "8c113997-0b17-44bb-b508-b5389577a059")
+	)
+	(text "+24V DC Input "
+		(exclude_from_sim no)
+		(at 19.05 50.546 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.4763)
+			)
+			(justify left bottom)
+		)
+		(uuid "978d28b4-63c7-45eb-a25f-36763e80d234")
+	)
+	(text "Abdelrahman Khaled (R&D Hardware Design Enginner)"
+		(exclude_from_sim no)
+		(at 228.6 175.006 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "b8203381-e4b6-4143-80e5-3046ce83079b")
+	)
+	(text "24 V / 20-Channel IP65 Actuator Controller (Power Circuits Sheet)"
+		(exclude_from_sim no)
+		(at 149.86 22.86 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4.064 4.064)
+				(thickness 0.4064)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "cd43da4a-593e-457f-a0d7-4e40cf18d07d")
+	)
+	(text "+ve 3.3V Circuit (LDO11173v3)"
+		(exclude_from_sim no)
+		(at 18.542 114.808 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.4763)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34575b3-ff72-442b-bea6-9d877aafc25d")
+	)
+	(junction
+		(at 115.57 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2768e8c7-cf3e-4a9f-a58d-fa82a8e23687")
+	)
+	(junction
+		(at 48.26 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40007586-8116-4405-9b37-82fff9aa7977")
+	)
+	(junction
+		(at 77.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560522a5-7eff-4b2f-a8da-48e45a46c491")
+	)
+	(junction
+		(at 222.25 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5660c5b8-c2af-40a6-86b0-1571278eadda")
+	)
+	(junction
+		(at 241.3 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4d1a51-7ce8-4c45-be1a-db84a5817cc5")
+	)
+	(junction
+		(at 257.81 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "607e200a-f5df-49f4-951d-f41603d94fc7")
+	)
+	(junction
+		(at 40.64 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608e0362-2a0f-4921-9da7-f2276eb30316")
+	)
+	(junction
+		(at 71.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74dc6f05-da27-4d3e-9b90-0afdf42a1bd5")
+	)
+	(junction
+		(at 120.65 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79743d68-dbfd-4013-acd7-26523d87f108")
+	)
+	(junction
+		(at 245.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7975284e-53ac-4ff9-b762-a87d2f9fb984")
+	)
+	(junction
+		(at 264.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "936a72c8-ae3e-4ebe-b5f8-81ac0e116180")
+	)
+	(junction
+		(at 31.75 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b634f6-e550-4845-b462-737ef2060f75")
+	)
+	(junction
+		(at 99.06 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97eae4d6-d03c-4438-bfb9-86f174077531")
+	)
+	(junction
+		(at 129.54 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98bec3f6-08d9-4f3b-b383-4021cdec1b2c")
+	)
+	(junction
+		(at 241.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a315edef-e6f9-4f35-aaa4-2dd0004540c6")
+	)
+	(junction
+		(at 86.36 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b734fd65-99aa-4853-948f-5679b79206cf")
+	)
+	(junction
+		(at 212.09 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b64fd9-61b0-4d36-a629-3b6cbca4ce34")
+	)
+	(junction
+		(at 134.62 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6dd1434-9f83-401d-af63-587c72d6c43e")
+	)
+	(junction
+		(at 123.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02c0f61-0cbc-48a5-b783-58af97d406d9")
+	)
+	(junction
+		(at 257.81 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f39e2f80-7b97-4ff8-a573-4067be94ff7d")
+	)
+	(junction
+		(at 212.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9bf98a1-660f-44c8-8a3b-c34eecac2b9f")
+	)
+	(no_connect
+		(at 31.75 64.77)
+		(uuid "1d6f1e24-cd6b-4b95-83d1-99c725e265bf")
+	)
+	(no_connect
+		(at 196.85 86.36)
+		(uuid "5f6f8ba0-e845-4c53-89ea-8551eedfd839")
+	)
+	(wire
+		(pts
+			(xy 212.09 96.52) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0725489a-814c-4446-8538-33616ec1a877")
+	)
+	(wire
+		(pts
+			(xy 270.51 74.93) (xy 270.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bb8b75-6905-4cdf-a9d8-abf7e0ed7ea9")
+	)
+	(wire
+		(pts
+			(xy 245.11 72.39) (xy 257.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c0ef2f-df31-4cc7-a412-d3e6c24ba6a0")
+	)
+	(wire
+		(pts
+			(xy 229.87 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16eb88de-1266-43ac-9131-522b17fcb6ad")
+	)
+	(wire
+		(pts
+			(xy 54.61 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191bb6b7-2946-4ba9-89db-15d646d2ec03")
+	)
+	(wire
+		(pts
+			(xy 245.11 72.39) (xy 245.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a76f13-b708-4e58-8e4b-30b2867c53dc")
+	)
+	(wire
+		(pts
+			(xy 48.26 130.81) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c98883c-23cc-4cd9-94df-e4cf0b64c94c")
+	)
+	(wire
+		(pts
+			(xy 40.64 62.23) (xy 40.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd8d4dd-9b88-448b-94a8-24a4fd460efc")
+	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 99.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229e57c0-249f-4ad7-8465-fff9356832f6")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 241.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249dee31-6fb7-46f4-a470-c0afbb2e96ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d5ccc5-e66e-43e8-9596-2034b19398ae")
+	)
+	(wire
+		(pts
+			(xy 218.44 67.31) (xy 222.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2590ca3e-08b7-4d6e-b3aa-05f084aff9db")
+	)
+	(wire
+		(pts
+			(xy 241.3 72.39) (xy 236.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266805a3-8c5f-4a59-81d7-15201fba0f15")
+	)
+	(wire
+		(pts
+			(xy 264.16 66.04) (xy 266.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272e272e-8b4d-47d6-a4d8-3fde89601736")
+	)
+	(wire
+		(pts
+			(xy 212.09 88.9) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5f1bf4-1450-4793-ad0b-25d1a697a470")
+	)
+	(wire
+		(pts
+			(xy 257.81 72.39) (xy 270.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae04623-3ead-481e-9d63-a46d1d26c5e2")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f415503-4c31-4ff4-ab4d-7f9822fa55d3")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314f5395-faa4-44eb-87f2-805f014343fc")
+	)
+	(wire
+		(pts
+			(xy 270.51 96.52) (xy 270.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d1805b-f656-4be2-a213-4382a27da779")
+	)
+	(wire
+		(pts
+			(xy 257.81 66.04) (xy 264.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344996ca-71ff-4118-b88b-74060aee338d")
+	)
+	(wire
+		(pts
+			(xy 270.51 82.55) (xy 270.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37218b0c-58ef-4109-be9a-a8602d7e755f")
+	)
+	(wire
+		(pts
+			(xy 115.57 130.81) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396b39fb-d87f-4409-85ac-84c02970543f")
+	)
+	(wire
+		(pts
+			(xy 257.81 95.25) (xy 257.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c838346-6995-4adf-822d-552de77a5c08")
+	)
+	(wire
+		(pts
+			(xy 257.81 63.5) (xy 257.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419fbf06-3e90-4f68-a343-fa7b675f9fca")
+	)
+	(wire
+		(pts
+			(xy 33.02 67.31) (xy 33.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46467401-609b-4fb1-848f-88c4e2980ad6")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d51612-25ac-4267-82bf-5fbc5c5ee55c")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baf0b6d-3478-4358-a484-65a2c9972b17")
+	)
+	(wire
+		(pts
+			(xy 222.25 67.31) (xy 222.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f71c241-d813-47fb-85bb-e67fb0069d1c")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cb5f33-f2d3-4680-8eee-6d30aece18a3")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b80809-b7b0-4ab5-882b-4e156c6d7450")
+	)
+	(wire
+		(pts
+			(xy 31.75 130.81) (xy 48.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600fdc2d-d8e3-4223-9b3d-e02212ce6275")
+	)
+	(wire
+		(pts
+			(xy 212.09 82.55) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638ef255-b3fa-4b2b-ac3c-d206dea64b9a")
+	)
+	(wire
+		(pts
+			(xy 40.64 78.74) (xy 40.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b8b2f0-841d-4e0d-bb4c-49d1a64dc42a")
+	)
+	(wire
+		(pts
+			(xy 123.19 74.93) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fe4d67-446b-446b-a329-502fb4ce7f58")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0852ce-53d3-47ff-b966-173eb048a147")
+	)
+	(wire
+		(pts
+			(xy 115.57 130.81) (xy 115.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70733b03-c3ad-4ee8-8c18-542cdc33ae47")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 33.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73791d31-8ba3-4360-af69-46f29cfc33e5")
+	)
+	(wire
+		(pts
+			(xy 212.09 77.47) (xy 222.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7427898e-7d2e-447a-8b1d-0f6b345e5c87")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 134.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785e8d96-fa92-4ac8-90f8-65de576ccecb")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80006c09-c54a-4233-bda2-ae67bae6b83e")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82900a8d-5f39-4b8c-a949-d57e01a8807b")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85561c0d-887b-43a0-bf81-06adc45510c7")
+	)
+	(wire
+		(pts
+			(xy 149.86 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8619253f-af6a-4ad9-bc88-b7d0f40b5de8")
+	)
+	(wire
+		(pts
+			(xy 48.26 130.81) (xy 60.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867a4cd6-6369-4170-8750-ecaef695144e")
+	)
+	(wire
+		(pts
+			(xy 21.59 128.27) (xy 21.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868730f2-477c-4cb5-b213-ce59acad1032")
+	)
+	(wire
+		(pts
+			(xy 31.75 130.81) (xy 31.75 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a8e29-6692-4da7-8ace-cba4cb4ccf7c")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ef1a0e-4d12-49ba-b6ce-12d53ebdf8da")
+	)
+	(wire
+		(pts
+			(xy 40.64 62.23) (xy 44.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8898a480-2570-41ed-9cec-92f61b486365")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 222.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fdb2ef-d424-4ad4-b291-00582bf3fd4e")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d66d62d-a0b4-4f34-bcd1-d0b24ec138a9")
+	)
+	(wire
+		(pts
+			(xy 245.11 95.25) (xy 245.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988ff79a-09ed-4344-a82d-48f61ef1e750")
+	)
+	(wire
+		(pts
+			(xy 115.57 147.32) (xy 115.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992b71ad-a43d-4b35-ab7f-4077ef58f24d")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 99.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a05e89a-f399-451d-97fd-b0a85a976133")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 213.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd66cad-10f8-4620-94b8-eddefcce9362")
+	)
+	(wire
+		(pts
+			(xy 196.85 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20d2bb4-316a-4676-b630-aa8ebedf4cf7")
+	)
+	(wire
+		(pts
+			(xy 245.11 72.39) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa5e7c6-c199-4941-bac9-d08985ebd404")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab09fa61-f576-4899-a5c3-a5bd3a502f1b")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0baa30b-3fd2-4bbc-89e8-9aef8cc4aa9e")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 115.57 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3106746-44f7-4e8e-ac6f-08702c0f28f8")
+	)
+	(wire
+		(pts
+			(xy 222.25 72.39) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e112e1-d1f5-400d-b0c3-ce0d8234c4c0")
+	)
+	(wire
+		(pts
+			(xy 227.33 77.47) (xy 241.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e424f0-446c-482e-b9b3-25f99fe60d3e")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee1264b-1dcc-4e5c-926a-0705a1dd230b")
+	)
+	(wire
+		(pts
+			(xy 48.26 147.32) (xy 48.26 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf50541d-6abd-4139-991c-6356d5690d38")
+	)
+	(wire
+		(pts
+			(xy 257.81 66.04) (xy 257.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0df0b2d-6d20-41e6-b259-c72f8e337e20")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c155177b-bd7c-482a-9e20-a065e661685b")
+	)
+	(wire
+		(pts
+			(xy 71.12 138.43) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2556e4f-20e0-4722-a60e-880525d4998d")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3123cdd-3528-48a4-914d-603950e063b0")
+	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3632247-91b0-4e72-88ad-593931a538da")
+	)
+	(wire
+		(pts
+			(xy 67.31 62.23) (xy 71.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86c9ce6-4d27-4f65-95d9-cac74290a317")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d998ad77-0c14-48eb-8c7f-d1a0f998069f")
+	)
+	(wire
+		(pts
+			(xy 86.36 133.35) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc49ebfe-8652-4193-8c9a-1b7dc7ed38e2")
+	)
+	(wire
+		(pts
+			(xy 257.81 90.17) (xy 257.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28995ad-c371-497f-b678-80ee177712f2")
+	)
+	(wire
+		(pts
+			(xy 81.28 133.35) (xy 86.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46b8dec-ba6f-4ed6-a1f7-6c60e44e96a5")
+	)
+	(wire
+		(pts
+			(xy 241.3 77.47) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48b857a-cfd9-4d5b-9d8a-6bbfe8313fe3")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.81) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60acc2d-5cbb-4184-9bce-c4073184f1ff")
+	)
+	(wire
+		(pts
+			(xy 208.28 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e7306c-8cc7-4222-b8bd-c80d6186207c")
+	)
+	(wire
+		(pts
+			(xy 21.59 130.81) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b54fdc-b0f9-4824-b896-f8877f118b32")
+	)
+	(wire
+		(pts
+			(xy 31.75 148.59) (xy 31.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ce8075-b964-45f1-92ec-5755f82a4ed5")
+	)
+	(wire
+		(pts
+			(xy 196.85 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadbc5a4-2ee0-42da-a651-8996b3a0aa51")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5d89a-30c8-42cc-ad5e-c0832e89b257")
+	)
+	(wire
+		(pts
+			(xy 123.19 62.23) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca4dc02-c982-4945-acab-0dfe2347b67c")
+	)
+	(wire
+		(pts
+			(xy 212.09 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cf4d11-7f23-4d22-9b0c-341ca5dcba6b")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa35817d-d4bb-463b-8751-a29ec0212746")
+	)
+	(wire
+		(pts
+			(xy 129.54 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc570ea-5fda-4120-b4a0-1bfbe7626bc1")
+	)
+	(global_label "+V_3.3V"
+		(shape output)
+		(at 132.08 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53d47935-a342-4a08-8abb-2ea269860b20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.8062 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+V_5V"
+		(shape output)
+		(at 266.7 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77fcd871-8241-4ed2-92d0-a1692de9ce79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.6119 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+V_24V"
+		(shape output)
+		(at 83.82 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d185f74e-af47-431d-a9ec-3426a3f2e7c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9414 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 115.57 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a1148e-302c-4a58-b010-2f0691485636")
+		(property "Reference" "#PWR0141"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b8ab563c-cc11-43a1-9628-ac31f00bd4e7")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 270.51 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19cf21a8-7431-445a-b57c-0eaa64b785f1")
+		(property "Reference" "R68"
+			(at 273.304 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220 Ohms"
+			(at 272.542 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 270.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 270.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 269.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 269.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 269.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 269.494 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abe4fb0e-ab05-4b1b-814e-3437aeefafa6")
+		)
+		(pin "1"
+			(uuid "a4d8ac1c-54e5-4059-9be7-1ffe8819901b")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Capacitor_Electrolytic 22uF_SMD")
+		(at 31.75 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269277ff-987e-4d9f-a92d-57b00cb3d3ba")
+		(property "Reference" "C15"
+			(at 34.29 143.5195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF/25V"
+			(at 34.29 146.0595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:CAP_Electrolyit_22uF_SMD"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Electrolytic Capacitor (22UF , 35V)SMD Radial Electrolytic Capacitor"
+			(at 39.878 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46e8fea6-d058-4f2d-94b0-641a38fdf83c")
+		)
+		(pin "1"
+			(uuid "02f8cdb1-6e2c-4103-9be3-c0596be4ffe9")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 224.79 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e424feb-9309-42d5-a081-b754aa2a92c0")
+		(property "Reference" "R65"
+			(at 223.52 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "40.2K Ohms"
+			(at 221.996 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 230.378 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 230.378 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 230.378 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 230.378 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e8ce173-f128-4f9a-947f-e3c46e17e98a")
+		)
+		(pin "1"
+			(uuid "fd9ae03a-60fe-4736-80bf-af9cd80b6e30")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.47 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "316394b5-152d-42c9-9c7e-397d2890e2cf")
+		(property "Reference" "#PWR0143"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_24V"
+			(at 80.01 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd5e53bc-3a43-4c88-b04e-42ec9a502c66")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 154.94 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35c973e8-4ffa-4698-9218-be6f57af53d7")
+		(property "Reference" "C4"
+			(at 156.464 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1nF/25V"
+			(at 156.464 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 153.416 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 153.416 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 153.416 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5853c3ad-3b7a-45e7-a4f4-2b14a739be73")
+		)
+		(pin "1"
+			(uuid "f9b43b6b-9ed1-489f-8700-3fcdc6135c05")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Diode_Schottky SS54_SMD")
+		(at 62.23 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36fc9bba-2cbe-4e73-8f51-c86bc9069a34")
+		(property "Reference" "D25"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 62.23 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:Diode_Schottky_SS54"
+			(at 62.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SS54/21853075"
+			(at 62.738 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Schottky diode 5A 40V 1N5824 SS54 DO-214AB SMC"
+			(at 62.992 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f3c34f2-4e3c-4268-b435-d117ef542a27")
+		)
+		(pin "1"
+			(uuid "73f7e908-2a64-4b14-810c-f371fd4c68d0")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 21.59 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d1aab15-775e-499d-bd3d-3888954feb2f")
+		(property "Reference" "#PWR0130"
+			(at 21.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_5V"
+			(at 21.59 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4d0ec3d-f4a4-4f74-95f1-146e952f3013")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 212.09 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f4b90b3-c2f8-4068-b391-f8e6e3e975d8")
+		(property "Reference" "R66"
+			(at 216.154 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7.68K Ohms"
+			(at 214.376 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 211.074 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 211.074 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 211.074 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 211.074 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b0dc1be-f5b5-4810-9bcd-de0e2cb03bcd")
+		)
+		(pin "1"
+			(uuid "f983e319-ab3e-4457-9320-7464b02a5106")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 245.11 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495122cb-35c4-4187-be3f-05bb4af81dc0")
+		(property "Reference" "C7"
+			(at 246.634 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 246.634 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 243.586 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 243.586 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 243.586 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b53d770b-2823-4e6d-aaf6-dd37215aaec4")
+		)
+		(pin "1"
+			(uuid "600e1cfc-33a7-4fd4-a052-eb82b4102548")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Capacitor_Electrolytic 22uF_SMD")
+		(at 99.06 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dc9a991-ac38-464e-a312-49fe55e4bb1f")
+		(property "Reference" "C18"
+			(at 101.6 143.5195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF/25V"
+			(at 101.6 146.0595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:CAP_Electrolyit_22uF_SMD"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Electrolytic Capacitor (22UF , 35V)SMD Radial Electrolytic Capacitor"
+			(at 107.188 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "497af860-0923-40a4-bccc-25c03f0f2dcb")
+		)
+		(pin "1"
+			(uuid "0ddb4030-a8b5-4ebf-8a76-463cc7f3e95a")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 140.97 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c0b706-6e3f-425f-b2dc-6184580840a0")
+		(property "Reference" "C5"
+			(at 142.494 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "6.8nF/25V"
+			(at 142.494 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 139.446 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 139.446 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 139.446 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6234969e-5c15-41b9-9075-3baa5156d890")
+		)
+		(pin "1"
+			(uuid "a0ce4632-4a71-424c-ae1f-3ad7759ac48b")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 110.49 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57e96bea-b41f-4e7f-b496-aad2f40550db")
+		(property "Reference" "#PWR0135"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5f6ce073-c04a-404c-9e59-ff7efac10821")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 215.9 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e2260b4-aaaf-43e7-ac8b-9b6568c8f7dc")
+		(property "Reference" "C3"
+			(at 216.916 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF/25V"
+			(at 220.472 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 212.852 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 212.852 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 212.852 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49362b6b-d3ef-4741-b868-4a8637b2a045")
+		)
+		(pin "1"
+			(uuid "5e483618-e04d-4992-af0b-898ff0291562")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 33.02 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f4efc94-c415-426b-875b-e913ae9bff03")
+		(property "Reference" "#PWR039"
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "be6a64e9-7453-4bf3-a962-a809449ed040")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f55452-90a1-4415-94cb-21601dd30971")
+		(property "Reference" "#FLG03"
+			(at 71.12 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c745aa-e09c-41fb-8398-0b8f2bf34af8")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Inductor_WE-HCI_7050")
+		(at 228.6 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a33ab9a-960d-44ac-bef6-1661bbc8423f")
+		(property "Reference" "L1"
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_WE-HCI_7050"
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:Inductor_4.9µHWE-HCI_7050"
+			(at 228.6 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744314490/1638566"
+			(at 228.346 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.9 µH Shielded Wirewound Inductor 6.5 A 14.5mOhm Nonstandard"
+			(at 228.6 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Market Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744314490/1638566"
+			(at 228.092 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd3cc95c-4145-4a3d-8d9c-8d20ad70aa03")
+		)
+		(pin "1"
+			(uuid "c3133326-5523-4a50-8328-4560e9599b90")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 154.94 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e08954b-0756-4c12-b6cc-b0317c1082ed")
+		(property "Reference" "#PWR0129"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b82550d8-ddad-4f15-bfb6-1f8a46fc55c1")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 245.11 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70e87213-7d67-4feb-b955-39082e8c9ca1")
+		(property "Reference" "#PWR0136"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9c1b8fc7-a7c1-4ecc-b41f-606f0f7b43dd")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:PWR_Regulator LDO 3.3v_SMD")
+		(at 71.12 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717282fa-23d1-4b38-9270-17cbc7f89e50")
+		(property "Reference" "U5"
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(+3.3V , 800mA ) Low-Dropout Voltage Regulator.(TO-220)"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e1314ed-29ee-4c48-b972-e589c64dfbd7")
+		)
+		(pin "4"
+			(uuid "ff4aa2f1-e3ec-4ead-b46e-f00cb46ee5c7")
+		)
+		(pin "3"
+			(uuid "b97fa308-d9a4-43d6-bf7d-64a9239d2460")
+		)
+		(pin "2"
+			(uuid "f42c4db3-68cc-4b3f-96de-faf69691139c")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 140.97 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72915313-9b23-4f1b-b968-cc58023700a0")
+		(property "Reference" "#PWR0127"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "69cdca99-5cc2-40a8-bd27-22047cf04e08")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:LED_Green_SMD_0805")
+		(at 269.24 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76b9045c-70b4-46c2-a6ed-7c3edc60a16f")
+		(property "Reference" "D26"
+			(at 276.098 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green Led"
+			(at 275.59 92.8369 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:LED_RED_SMD_0805"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Market Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080SS75000/4489921"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56a12cda-f4d6-4260-9695-df7850425560")
+		)
+		(pin "1"
+			(uuid "e96b8f02-fe1b-453e-b1dc-470449908de8")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:IC_Buck Converter_MP2307DN-LF-Z")
+		(at 179.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d9d910-1fae-46d2-a84f-f55191d66d05")
+		(property "Reference" "U1"
+			(at 169.926 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IC_Buck Converter_MP2393DN-LF-Z"
+			(at 182.372 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:IC_MP2393_Buck Converter"
+			(at 180.848 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2307DN-LF-Z/5292007"
+			(at 179.07 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.925V 1 Output 3A 8-SOIC (0.154\", 3.90mm Width) Exposed Pad"
+			(at 154.178 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Market Link" "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2307DN-LF-Z/5292007"
+			(at 177.292 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Monolithic Power  System"
+			(at 180.848 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d86afd03-04b2-4330-9247-b03a40d6abe9")
+		)
+		(pin "2"
+			(uuid "168542aa-3b27-4016-ab08-dccfcee9a539")
+		)
+		(pin "5"
+			(uuid "7e060388-5f08-46a6-9818-0e9ecbae7097")
+		)
+		(pin "6"
+			(uuid "f576507d-9e48-4e0c-94cf-039eaa6ea8ce")
+		)
+		(pin "1"
+			(uuid "ae953d2b-a5d2-4fb1-9c05-f8257ab08f67")
+		)
+		(pin "8"
+			(uuid "d5caa791-d9dc-4f7f-ac40-61d73a77aae1")
+		)
+		(pin "4"
+			(uuid "ff39051c-c6cf-40b7-bfd1-06d5449577d3")
+		)
+		(pin "9"
+			(uuid "cbc77a8e-b363-44aa-a816-c6a6fb4dffe8")
+		)
+		(pin "7"
+			(uuid "4cae198c-7690-4754-bf69-f16fad1a9dd4")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 257.81 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8148e8a5-ffc1-4cb0-a8ca-74b2a3a37e13")
+		(property "Reference" "#PWR0137"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0293b110-0fea-42cb-8529-89ee4bda8123")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 203.2 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e89ffc-7360-46e9-a580-8617fd36fc17")
+		(property "Reference" "R63"
+			(at 202.184 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20 Ohms"
+			(at 200.406 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 208.788 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 208.788 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 208.788 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 208.788 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "515335b1-e0cb-429b-b608-dbf8a379138e")
+		)
+		(pin "1"
+			(uuid "98075ab1-7c73-425d-a5ce-e074ae95dd13")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 203.2 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "897c9d90-5115-46cb-9eda-cd16ef2af8d7")
+		(property "Reference" "R64"
+			(at 202.184 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "15K Ohms"
+			(at 200.406 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 208.788 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 208.788 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 208.788 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 208.788 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a441191e-3da2-41a2-a565-c166657b7063")
+		)
+		(pin "1"
+			(uuid "0676cff4-c0b7-40b7-8c10-fac64c909abc")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 115.57 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8be07d96-2b16-417e-a7eb-b7b454655f03")
+		(property "Reference" "C17"
+			(at 117.094 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF/25V"
+			(at 117.094 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:CAP_SMD_1206"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 114.046 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 114.046 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 114.046 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99056d29-d94e-4d1f-bd5d-d2e0209b2c49")
+		)
+		(pin "1"
+			(uuid "c0d9816f-291b-4327-bc03-ed11cb74436d")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 212.09 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c2d5c82-2b11-472b-8aa8-bc9aad4d4ad1")
+		(property "Reference" "#PWR0133"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "93451e81-bbc9-4b9b-8352-438a2d4efdd5")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 48.26 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f30661f-4cdb-4f4d-a70a-13e71f76a062")
+		(property "Reference" "#PWR0140"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "cc7d12e8-8253-45af-9f90-bfa0e9a774b7")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 129.54 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9284b1e3-9095-4f1e-8a22-a1e8c0c4cab6")
+		(property "Reference" "#PWR0132"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_3.3V"
+			(at 129.54 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d59406-7df7-4992-821f-9838f9169e4b")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Fuse_5mmx20mm")
+		(at 49.53 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96cec954-9418-407d-9026-a5291b9d01c1")
+		(property "Reference" "F1"
+			(at 49.784 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3A"
+			(at 49.276 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:Fuse_Holder_5mmx20mm"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a26d1b1-f597-4ad5-863c-8856e045df92")
+		)
+		(pin "1"
+			(uuid "8c13ed35-8bec-4722-80d9-6bbda0764f91")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 99.06 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acd05c8-6a87-4129-b22c-8a6a31cd8c2b")
+		(property "Reference" "#PWR0142"
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1d7f606c-dcd3-4d00-a20b-4fcb6bd5cf34")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 224.79 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2fa2613-52f6-409d-8eae-cd02d0e5a522")
+		(property "Reference" "C25"
+			(at 221.488 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10pF/25V"
+			(at 237.744 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 221.742 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 221.742 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 221.742 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9e4c853-6e47-4f65-bd7a-d1a60237eb52")
+		)
+		(pin "1"
+			(uuid "3a7359c8-0ba7-4a57-b780-0996376ce9d0")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 203.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d843fc-2d88-4f00-aa00-5b858f8d20a2")
+		(property "Reference" "#PWR0134"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4822479f-79cc-4ea3-a4f3-49aa0971e34a")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 31.75 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc35cc20-5a1e-42e0-90ad-b42cf797b23a")
+		(property "Reference" "#PWR0139"
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "cbf5a505-b032-4cb8-b279-2b5f990a56e1")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 123.19 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc89254b-b296-4c97-b829-1ef237950870")
+		(property "Reference" "#PWR0126"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2bcf0699-9be2-4a72-a30c-8f5fb5abd237")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 40.64 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf7f7bb9-c66e-4bd7-95b4-ea536d550ed3")
+		(property "Reference" "#PWR0150"
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "295817b5-4e4d-4758-9076-c787d63c0886")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4991372-3234-4eb1-9be6-12112f1d1ba9")
+		(property "Reference" "C6"
+			(at 112.014 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF/25V"
+			(at 112.014 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 108.966 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 108.966 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 108.966 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70d5ed47-0b70-4fe4-b973-f234076eb736")
+		)
+		(pin "1"
+			(uuid "55cfd88c-797a-4e2e-a225-ccbf470750ca")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 257.81 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb10f353-e476-4999-85eb-48b330f8cee0")
+		(property "Reference" "#PWR0138"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_5V"
+			(at 257.81 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ebc843-dc74-4179-8a6a-6f7f46f32ed6")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 264.16 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd6004f2-4cee-4025-a396-2287812497fe")
+		(property "Reference" "#FLG01"
+			(at 264.16 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 264.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f926b8b-8839-4a48-bc53-9645ce537197")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 123.19 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce5f896e-790e-4fbe-b7ab-792b3d88925e")
+		(property "Reference" "C2"
+			(at 124.714 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 124.714 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 121.666 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 121.666 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 121.666 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f7bce8d-00b4-400b-ae77-b2ef1bc24ab9")
+		)
+		(pin "1"
+			(uuid "685530f0-27c4-4732-927b-2cae67b27da8")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:CONN_Terminal Block 1x3_5.08mm")
+		(at 26.67 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4eeecaa-3572-42f3-9ecc-db182ca95d31")
+		(property "Reference" "J26"
+			(at 24.13 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 24.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:CONN_Termincal Block_PHOENIX_1715734"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male (2.54mm) 1X40 Straight Long (20 CM)"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb18e95-03f1-48d3-8ad4-5915735cf490")
+		)
+		(pin "2"
+			(uuid "14bc46e9-1a2c-43de-833d-68fa3747d772")
+		)
+		(pin "3"
+			(uuid "cc6b85e8-6b9e-4b6c-b3d4-e8e50b1858db")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da110852-2043-48c5-a876-e87ad8155f6a")
+		(property "Reference" "#PWR0128"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_24V"
+			(at 125.73 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df073b11-ac6c-44e3-8125-16a782d826a4")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 270.51 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd5d9da-7fd2-47bb-8156-7db5fdbb2309")
+		(property "Reference" "#PWR0147"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3ce1bfef-2ab9-4c44-aa7e-ca0e86ec33a6")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 257.81 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1139372-0adb-431b-b08f-4bd784ce96c9")
+		(property "Reference" "C14"
+			(at 259.334 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 259.334 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 256.286 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 256.286 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 256.286 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "861aabeb-d4c0-459a-9c5d-14f7f1f4dfb9")
+		)
+		(pin "1"
+			(uuid "99e9e171-10b2-409c-9064-d1c0da1e5395")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 120.65 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e369ef39-ee58-4d2c-b51f-a4874230c13e")
+		(property "Reference" "#FLG02"
+			(at 120.65 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cb4047e-feb2-456a-8c4b-2f898a5d857c")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:GND_POWER_GROUND")
+		(at 71.12 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8214705-0a5b-40db-a343-599c2aebb3d0")
+		(property "Reference" "#PWR0131"
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1461b9e5-d361-44f3-9fd9-662b83db42ea")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Resistor 4.7Kohm_GP_Integrated_Library.IntLib")
+		(at 144.78 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f22b714c-43e5-467a-9ce5-16e4a8edd25d")
+		(property "Reference" "R62"
+			(at 137.668 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "604K Ohms"
+			(at 150.114 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:RES_SMD_1206"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor (220 ohm , 1/4W)"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Part Number"
+			(at 150.368 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "A1-20-1206-4.7K"
+			(at 150.368 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Market Link"
+			(at 150.368 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://free-electronic.com/product/smd-resistor-4-7-kohm-1-4w/"
+			(at 150.368 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4346bfe3-ba7e-4c52-a0b3-b2121f17d59e")
+		)
+		(pin "1"
+			(uuid "00b1c384-aac3-4427-b756-2ac8cc7803a0")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Actuator Controller_IP65_24V_20_Channel-altium-import:Diode_TVS_SMAJ33A")
+		(at 40.64 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f33d9a94-94cf-4ebc-91e9-da332cd6b6f2")
+		(property "Reference" "CR1"
+			(at 44.45 73.914 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode_TVS_SMAJ33A"
+			(at 44.45 74.9299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Actuator_20Ch_24V_FootPrints:Diode_TVSSMASeries_LTF"
+			(at 29.464 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SMAJ33A"
+			(at 31.496 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "53.3V Clamp 7.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"
+			(at 27.432 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab21687d-999d-4be3-93ed-4833f23fe608")
+		)
+		(pin "1"
+			(uuid "e2629886-07a3-439e-a75c-e87d4ff3afe3")
+		)
+		(instances
+			(project ""
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP_Integrated_Library:root_3_Capacitor 100nF_GP_Integrated_Library.IntLib")
+		(at 48.26 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e73e75-49cb-46e0-bf65-26f8f2d4d98c")
+		(property "Reference" "C16"
+			(at 49.784 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF/25V"
+			(at 49.784 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Actuator Controller_IP65_24V_20_Channel:CAP_1206_SMD"
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARAMETER 1" "*"
+			(at 46.736 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Link"
+			(at 46.736 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.com/en/products/detail/nextgen-components/1206W226K250PB/18677005?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANogwwAEArQGIgC6pADgC5QgCqAOwCWXAPKYAsoWz4ArgCdCIAL6kAtAlQgMkHARLkqIAGwBmAKzm2y1TSNpsHbGhFl5%2BOtaA"
+			(at 46.736 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aae94ff9-c183-47da-b728-ab14cfd8a176")
+		)
+		(pin "1"
+			(uuid "2c5ea26a-2214-4735-9594-e3c9c757729b")
+		)
+		(instances
+			(project "Actuator Controller_IP65_24V_20_Channel"
+				(path "/690877f8-546d-44e1-b7fd-17975ca40435/6ed8f142-ec2f-4b7f-8d88-679398279392"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
